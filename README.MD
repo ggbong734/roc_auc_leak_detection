@@ -1,6 +1,6 @@
 # ROC AUC Analysis for leak detection instrument
 
-Here we explore the use of the **Receiver Operating Characteristics (ROC) Area Under the Curve (AUC)** analysis for evaluating natural gas leak detection systems. The ROC (Receiver operating characteristics) curve analysis technique is a method to analyze performance of a binary classification test.  It is commonly used in the medical and field to analyze efficacy of diagnosis tools (like cancer screening).  In our case, we treat leak detection as a task with binary outcome: leak detected or leak not found.
+Here we explore the use of the **Receiver Operating Characteristics (ROC) curve and its Area Under the Curve (AUC)** analysis for evaluating natural gas leak detection systems. ROC analysis is a method to analyze performance of a binary classification test. It is commonly used in the medical and field to analyze efficacy of diagnosis tools (like cancer screening). In our case, we treat leak detection as a task with binary outcome: leak detected or leak not found.
 
 ### Motivation
 
