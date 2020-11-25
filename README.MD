@@ -24,7 +24,7 @@ In the conventional approach, for each leak, we record whether the instruments w
 
 The leaks are then grouped into flow rate bins. Here is the list of bins and hypothetical data for each bin:
 
-<p align="center"><img src="images/bins.png" height= "200"/></p>
+<p align="center"><img src="images/bins.png" height= "175"/></p>
 
 Traditionally probability detection curves are used to characterize performance of leak detection instruments. 
 
@@ -32,7 +32,7 @@ Traditionally probability detection curves are used to characterize performance 
 
 A histogram can also used to visualize the data:
 
-<p align="center"><img src="images/probability_detection_histogram.png" height= "285"/></p>
+<p align="center"><img src="images/probability_detection_histogram.png" height= "300"/></p>
 
 However the downside of this approach is that there is no penalty if the instrument creates false positives (false alarms). Thus, the instrument vendor may be inclined to lower the leak threshold to a very low level to create positive identification on every sign of a leak. In practice, false positives are very costly as with every positive indication a personnel has to be sent to the location to validate the leak.
 
@@ -60,7 +60,7 @@ Then the true positive, true negative, false positive, and false negative number
 
 <p align="center"><img src="images/sweep_threshold.png" height= "275"/></p>
 
-<p align="center"><img src="images/error_table.png" height= "205"/></p>
+<p align="center"><img src="images/error_table.png" height= "210"/></p>
 
 ### Receiver operating characteristics (ROC) curve
 
@@ -91,4 +91,4 @@ In the plots below, the leak margin was changed to 2 and 5 cubic feet per hour.
 Instrument A performs significantly better (higher AUC score) at higher leak margins. Instrument B enjoyed a modest gain in performance (AUC score) by increasing the leak margin from 0 to 2 cfh but no improvement from 2 to 5 cfh. 
 
 ### Credits
-This study was completed by Gerry Bong. 
+This study and report were completed by Gerry Bong. 
